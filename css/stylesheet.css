@@ -1,0 +1,389 @@
+.header ul a{
+  text-decoration: none;
+padding: 20px;
+color: white;
+transition: 0.3s;
+top: 5px;
+
+
+}
+.header ul a:hover{
+  transition: 0.2s;
+  color:#bf1b2c;
+  z-index: 2;
+
+}
+.header ul    {
+  position: absolute;
+  right:20px;
+  top: 27px;
+  display: inline-flex;
+  padding: 5px;
+  margin: 3px;
+  list-style: none;
+  font-size: 28px;
+  text-align: justify;
+ 
+}
+.header
+{
+  position: relative;
+   min-height: 102px;
+   width:  100%;
+   background-color: black;
+   box sizing: border-box;
+   display: flex;
+   position: relative;
+   display: inline-block;
+ }
+.header i {
+  color: white;
+    font-size: 51px;
+    position: absolute;
+    left: 36px;
+    top: 11px;
+}
+
+
+*{ 
+  margin:0;
+  border: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+ 
+  body{
+    direction: ltr;
+  }
+  section {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top:15PX ;
+   
+    
+    
+  }
+  section .f1 p{
+    text-align: center;
+  }
+h2{
+  text-align: center;
+  justify-content: center;
+  margin-top: 25px;
+  display: inline-block;
+  font-weight: 700;
+  color: rgb(67, 155, 67);
+  margin-left: 30px;
+
+}
+section .f1{
+  background-color: #eee;
+   margin-left: 30px; ;
+   flex-direction: row;
+   box-shadow: 10px 5px rgba(0,0,0,0.2); 
+   
+}
+section .f1 img{
+  height: 300px;
+  display: block;
+  padding: 15px;
+}
+.f1 a{
+  text-decoration: none;
+  color: #2796ad;
+  
+}
+.f1 p:hover{
+   color: red;
+   font-weight: 500; 
+
+}
+.kk{
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin: 20px;
+}
+.f1:hover{
+  transform:scale(1.1);
+ transition-duration: 0.5s;
+ box-shadow: 5px 10px rgba(0,0,0,0.2); 
+
+}
+.footer {
+  display:flex;
+  width:100%;
+  height:150px;
+  flex-direction:row;
+  background-color:#131a22;
+  position:relative;
+  top: 100px;
+  bottom:0;
+  }
+  a {
+      color: white;
+      text-decoration: none;
+  }
+  .about {
+      left: 10px;
+      bottom: 10px;
+      position: absolute;
+      font-size: 16pt;
+  }
+  .contact {
+      right:10px;
+      bottom:10px;
+      position: absolute;
+      font-size: 16pt;
+  }
+  .rights {
+      bottom:60px;
+      left: 43%;
+      color:white;
+      position: absolute;
+  }
+  .logo {
+      position: absolute;
+      z-index: 5;
+      width: 130px;
+      height: 100px;
+      top:0px;
+      left:20px;
+      cursor: pointer;
+  }
+a:hover {
+ text-decoration: underline;
+}
+#top10 {
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+    margin: 50px;
+}
+.search
+{
+  position: absolute;
+  width: 600px;
+  right:500px;
+  top:-14px;
+  background: rgba(255,255,255,0.2);
+  display: flex;
+  align-items: center ;
+  border-radius: 60px;
+  padding: 10px 20px;
+  height: 50px;
+}
+.search input {
+background: transparent;
+flex: 1;
+border:0;
+outline: none;
+padding: 24px 20px;
+font-size: 20px;
+color: white;
+z-index: 0;
+}
+::placeholder {
+color: white;
+}
+.search button img {
+width: 60px;
+position: relative;
+right: 6px;
+top: -1px;
+}
+.search button {
+border: 0ch;
+border-radius: 50%;
+width: 60px;
+height: 60px;
+cursor: pointer;
+}
+#sort {
+border: 0;
+width: 60px;
+height: 70px;
+cursor: pointer;
+position: relative;
+right:660px;
+top:-19px;
+padding-left: 1em;
+font-size: 17px;
+background-color: #333333 ;
+color: white;
+z-index: 2;
+border-radius: 12px;
+}
+#sd{
+border: 0;
+font-size: 15pt;
+cursor: pointer;
+position: absolute;
+left: 3px;
+top: 23px;
+color: #bf1b2c;
+}
+#facebook {
+color: white;
+font-size: 20pt;
+position: absolute;
+top:100px;
+left: 705px;
+cursor: pointer;
+}
+#facebook:hover {
+color: #0b87ef;
+transition: 0.4s;
+}
+#instagram {
+color: white;
+font-size: 20pt;
+position: absolute;
+top:100px;
+left: 660px;
+cursor: pointer;
+}
+#instagram:hover {
+color: #0b87ef;
+transition: 0.4s;
+}
+#telegram {
+color: white;
+font-size: 20pt;
+position: absolute;
+top:100px;
+left: 745px;
+cursor: pointer;
+}
+#telegram:hover {
+color: #0b87ef;
+transition: 0.4s;
+}
+#whatsapp {
+color: white;
+font-size: 20pt;
+position: absolute;
+top:100px;
+left: 785px;
+cursor: pointer;
+}
+#whatsapp:hover {
+color: #0b87ef;
+transition: 0.4s;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+#sort:hover .dropdown-content {
+  display: block;
+}
+.login-unmpsw {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.login  {
+  color: white;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  top: 10px;
+  position: absolute;
+  z-index: 2;
+  right: 10px;
+}
+
+.login:hover {
+  color: #bf1b2c;
+  transition: 0.4s;
+}
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+  cursor: pointer;
+}
+.container {
+  padding: 16px;
+  width: 95%;
+}
+
+#psw a {
+  float: right;
+  padding-top: 16px;
+  color: black;
+  position: relative;
+  right: -163px;
+}
+#psw a:hover {
+  color:#bf1b2c
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; 
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 60px;
+}
+
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 40%;
+}
+.close {
+  position: relative;
+  right: -550px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+.login-login {
+  width: 100%;
+  height: 50px;
+  background-color: green;
+  cursor: pointer;
+  font-size: 15pt;
+}
+#acc a {
+  float: right;
+  padding-top: 16px;
+  color: black;
+  bottom: 30px;
+  position: relative;
+}

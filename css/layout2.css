@@ -1,0 +1,102 @@
+*{ 
+    margin:0;
+    border: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .fa-solid, .fas{
+        font-size: 25px;
+    }
+figcaption{
+    align-items: center;
+    display: none;
+}
+
+.bar a:hover + figcaption{
+    display: block;
+    
+}
+   .fa-solid{
+       color: mediumseagreen;
+
+   }
+   .bar a:hover + .fa-solid{
+       color:green;
+   }
+  .bar.il a{
+       text-decoration: none;
+   }
+  .bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6f6;
+    position: absolute;
+    right: 0;
+    min-width: 120px;
+    display: none;
+   
+    
+  }
+  .nav{
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .nav img{
+      height: 100px;
+  }
+  .header{
+      padding: 15px;
+  }
+  .header.bar{
+      position: relative;
+  }
+.icon{
+      width: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+  }
+  .icon span{
+      background-color: #333;
+      margin-bottom: 5px;
+  }
+  .icon span:first-child{
+      height: 2px;
+      width: 100%;
+
+  }
+  .icon span:nth-child(2){
+    height: 2px;
+    width: 60%;
+    transition: 0.3s;
+      
+}
+.icon span:last-child{
+    height: 2px;
+    width: 100%;
+}
+ .bar:hover .icon span:nth-child(2){
+
+    width: 100%;
+}
+.bar ul a{
+    display: block;
+    padding: 15px;
+    transition: 0.3s ;
+}
+.bar ul a:hover + figcaption{
+    display: block;
+
+}
+.bar ul li:not(:last-child) a{
+ border-bottom: 1px solid #ddd;
+
+}
+.icon:hover +ul{
+    display: block;
+}
