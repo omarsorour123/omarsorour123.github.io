@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+    <script src="https://kit.fontawesome.com/0b5948201f.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="image/FCAI Books.png">
+    </head>
+    <body>
+        <button onclick="document.getElementById('login').style.display='block'" style="width:auto;"  class="login">Login</button>
+      
+        <div id="login" class="modal">
+          
+          <form class="modal-content animate" method="post">
+            <div class="imgcontainer">
+              <span onclick="document.getElementById('login').style.display='none'" class="close" title="Close Modal">&times;</span>
+            </div>
+            <div class="container">
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required class="login-unmpsw">
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required class="login-unmpsw">
+              <button type="submit" class="login-login">Login</button>
+              <label>
+                <input type="checkbox" name="remember"> Remember me
+              </label>
+            </div>
+            <div class="container">
+              <button type="button" onclick="document.getElementById('login').style.display='none'" class="cancelbtn">Cancel</button>
+              <span id="acc"><a href="#">Don't have an account?</a></span>
+              <span id="psw"><a href="#">Forgot password?</a></span>
+            </div>
+          </form>
+        </div>
+        <script>
+      
+        var modal = document.getElementById('login');
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        </script>
+       <div class="header"><img src="image/FCAI Books.png" class="logo" alt="logo">
+          <div>
+          <ul class="list"  >
+            <button id="sort"> <i class="fa-solid fa-sort" id="sd"></i>Sort</button>
+            <form action="https://www.google.com/" method="GET" class="search">
+              <input type="text" placeholder="Search..">
+              <button type="submit"><img src="image/search.png"></button>
+            </form>
+              <li><a href="index.html">books</a></li>
+              <li><a href="Atricle.html">article</a></li>
+              <li><a href="support.html">Support</a></li>
+          </ul>
+       </div>
+         </div>
+         <h1>Welcome to our site</h1>
+         <h1 class="h">We have all sorts of books on our website</h1>
+         <h2>أهمية القراءة</h2>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/2QO_OyWKNjk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </body>
+         <div class="footer">
+            <a href="https://www.facebook.com/OmKh15/"><i class="fa-brands fa-facebook" id="facebook"></i></a>
+            <a href="https://www.instagram.com/deadomar__/"><i class="fa-brands fa-instagram" id="instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-telegram" id="telegram"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp" id="whatsapp"></i></a>
+            <a href="https://discord.gg/sdUZKQmE"><i class="fa-brands fa-discord" id="discord"></i></a>
+            <div class="contact"><a href="social.htm">Contact Us</a></div>
+            <div class="about"><a href="about.htm">About</a></div>
+            <div class="rights">All Rights Reserved 2022 ©</div>
+        </div>
+</html>

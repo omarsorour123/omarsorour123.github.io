@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bookstore</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="https://kit.fontawesome.com/0b5948201f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/buttom.css">
+    <link rel="stylesheet" href="css/dark_theme.css">
+</head>
+<body>
+  <button onclick="document.getElementById('login').style.display='block'" style="width:auto;"  class="login">Login</button>
+
+  <div id="login" class="modal">
+    
+    <form class="modal-content animate" method="post">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('login').style.display='none'" class="close" title="Close Modal">&times;</span>
+      </div>
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required class="login-unmpsw">
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required class="login-unmpsw">
+        <button type="submit" class="login-login">Login</button>
+        <label>
+          <input type="checkbox" name="remember"> Remember me
+        </label>
+      </div>
+      <div class="container">
+        <button type="button" onclick="document.getElementById('login').style.display='none'" class="cancelbtn">Cancel</button>
+        <span id="acc"><a href="signup.html">Don't have an account?</a></span>
+        <span id="psw"><a href="#">Forgot password?</a></span>
+      </div>
+    </form>
+  </div>
+  <script>
+
+  var modal = document.getElementById('login');
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+  </script>
+ <div class="header"><img src="image/FCAI Books.png" class="logo" alt="logo">
+    <div>
+    <ul class="list"  >
+      <button id="sort"> <i class="fa-solid fa-sort" id="sd"></i>Sort</button>
+      <div class="dropdown-content">
+  <p>Hello World!</p>
+  </div>
+      <form action="https://www.google.com/" method="GET" class="search">
+        <input type="text" placeholder="Search..">
+        <button type="submit"><img src="search.png"></button>
+      </form>
+        <li><a class="one"  href="home.html">Home</a></li>
+        <li><a  class="two" href="Atricle.html">articls</a></li>
+        <li><a  class="three" href="page-support.html">Support</a></li>
+        <li><a class="four" href="door_alnashr.html">d_a</a></li>
+    </ul>
+ </div>
+   </div>
+   <div>
+    <input type="checkbox" class="checkbox" id="chk" />
+    <label class="label" for="chk">
+      <i class="fas fa-moon"></i>
+      <i class="fas fa-sun"></i>
+      <div class="ball"></div>
+    </label>
+  </div>
+<section>
+    <div class="kk"> <h2>اسلوب حياة</h2> </div>
+    <div class="f1">
+        <img src="image/3s.jpg" alt="">
+      <a href="temp2.html"> <p>SONGBIRDS : CHRIST LEFTERI</p> </a> 
+    </div>
+    <div class="f1">
+        <a href="temp.html">   <img src="image/2s.jpeg" alt="">
+      <p>How To Analyze People</p> </a> 
+    </div>
+    <div class="f1">
+ <img src="image/s3.jpg" alt="">
+      <a href="book.html"> <p>Berserk Deluxe Volume 10<br /></p></a> 
+      <br />
+    </div>
+    <div class="f1">
+        <img src="image/download3.jfif" alt="">
+             <a href="#"> <p>العادات الذرية</p></a> 
+           </div>
+           <div class="f1">
+            <img src="image/download4.jfif" alt="">
+                 <a href="#"> <p>نساء من الزهرة و رج...</p></a> 
+               </div>
+</section>
+<section>
+  <div class="kk"> <h2>روايات</h2> </div>
+  <div class="f1">
+      <img src="image/rw2.jpg" alt="">
+    <a href="#"> <p>رواية واحة الغروب</p> </a> 
+  </div>
+  <div class="f1">
+      <a href="#">   <img src="image/rw1.jpg" alt="">
+    <p>رواية الجزار</p> </a> 
+  </div>
+  <div class="f1">
+<img src="image/rw3.jpg" alt="">
+    <a href="#"> <p>رواية هيبتا<br /></p></a> 
+    <br />
+  </div>
+  <div class="f1">
+      <img src="image/rw4.jpg" alt="">
+           <a href="#"> <p>اولاد حارتنا</p></a> 
+         </div>
+         <div class="f1">
+          <img src="image/rw5.jpg" alt="">
+               <a href="#"> <p>رواية الخيميائي</p></a> 
+             </div>
+</section>
+<section>
+  <div class="kk"> <h2>programming</h2> </div>
+  <div class="f1">
+      <img src="image/pl1.jfif" alt="">
+    <a href="#"> <p>guid to competitiv...</p> </a> 
+  </div>
+  <div class="f1">
+      <a href="#">   <img src="image/pl2.jpg" alt="">
+    <p>oop in c++</p> </a> 
+  </div>
+  <div class="f1">
+<img src="image/pl3.jpg" alt="">
+    <a href="#"> <p>clean code<br /></p></a> 
+    <br />
+  </div>
+  <div class="f1">
+      <img src="image/pl4.webp" alt="">
+           <a href="#"> <p>data structures c++</p></a> 
+         </div>
+         <div class="f1">
+          <img src="image/pl6.jpg" alt="">
+               <a href="#"> <p>python for beginners</p></a> 
+             </div>
+</section>
+<div>
+  <button id="wow" class="btntop"><i class="fa-solid fa-arrow-up"></i></button>
+</div>
+  <script src="javascript/main.js"></script>
+  <script src="javascript/dark_theme.js"></script>
+    </body>
+    <div class="footer">
+      <a href="https://www.facebook.com"  target="_blank"><i class="fa-brands fa-facebook" id="facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram" id="instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-telegram" id="telegram"></i></a>
+      <a href="#"><i class="fa-brands fa-whatsapp" id="whatsapp"></i></a>
+      <div class="contact"><a href="social.htm">Contact Us</a></div>
+      <div class="about"><a href="about.htm">About</a></div>
+      <div class="rights">All Rights Reserved 2022 ©</div>
+  </div>
+</html>
