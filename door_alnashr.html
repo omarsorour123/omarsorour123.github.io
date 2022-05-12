@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/dar_alnashr.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>دار النشر</h1>
+
+    <div class="container">
+        <div class="card">
+            <div class="img">
+                <img src="image3/200.jpg" alt="">
+            </div>
+            <div class="info">
+                <h3>دار الفكر الجامعي</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="img">
+                <img src="image3/329.jpg" alt="">
+            </div>
+            <div class="info">
+                <h3>مركز الكتاب للنشر</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="img">
+                <img src="image3/383.jpg" alt="">
+            </div>
+            <div class="info">
+                <h3>مركز نهر النيل</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="img">
+                <img src="image3/5.jpg" alt="">
+            </div>
+            <div class="info">
+                <h3>دار الفجر للنشر و التوزيع</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="img">
+                <img src="image3/6.jpg" alt="">
+            </div>
+            <div class="info">
+                <h3>الهيئة المصرية العامة للكتاب</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="img">
+                <img src="image3/7.jpg" alt="">
+            </div>
+            <div class="info">
+                <h3>عالم الكتاب</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="img">
+                <img src="image3/8.jpg" alt="">
+            </div>
+            <div class="info">
+                <h3>صندوق التنمية الثقافية</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="img">
+                <img src="image3/9.jpg" alt="">
+            </div>
+            <div class="info">
+                <h3>زين للنشر و التوزيع</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="img">
+                <img src="image3/200.jpg" alt="">
+            </div>
+            <div class="info">
+                <h3>دار نشر</h3>
+            </div>
+        </div>
+    </div>
+    <div class="slideshow-container">
+        <div class="mySlides">
+            <img src="image/download2.jfif" style="width:20%" style="height:auto">
+            <div class="text">first</div>
+        </div>
+
+        <div class="mySlides">
+            <img src="image/download3.jfif" style="width:20%" style="height:auto">
+            <div class="text">second</div>
+        </div>
+
+        <div class="mySlides">
+            <img src="image/download4.jfif" style="width:20%" style="height:auto">
+            <div class="text">third</div>
+        </div>
+
+    </div>
+    <br>
+    <script>
+        let slideIndex = 0;
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 2000);
+        }
+        showSlides();
+    </script>
+</body>
+</html>
